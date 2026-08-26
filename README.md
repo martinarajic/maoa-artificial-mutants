@@ -1,4 +1,7 @@
-# maoa_artificial_mutants
+
+This repository contains the files necessary to reproduce the computational results reported in the manuscript:
+
+#### REPOSITORY STRUCTURE
 
 The input files are organized into three main folders:
 
