@@ -9,9 +9,6 @@ Martina Rajića, Outi Lampelac Robert Vianello Janez Mavri, Jernej Stare
 
 The input files are organized into three main folders:
 
-├── QM/
-├── MD/
-└── EVB/
 
 #### QM
 
