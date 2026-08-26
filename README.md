@@ -13,7 +13,7 @@ QM/
 MD/
 EVB/
 
-1. QM
+#### QM
 
 The QM folder contains Gaussian input files used for quantum-mechanical calculations.
 
@@ -27,13 +27,13 @@ The provided .com files correspond to the ON state, meaning that the environment
 The corresponding OFF calculation does not require a separate structural input. To prepare the OFF state, use the same .com file and simply remove the point-charge section from the Gaussian input.
 
 
-2. MD
+#### MD
 
 The MD folder contains all input files required to run the molecular dynamics simulations in Amber.
 
 Due to a 48-hour computational time limit on our cluster, the MD production simulation was divided into three consecutive input files. The second MD run starts from the output/restart of the first run, and the third starts from the output/restart of the second run. Therefore, these should not be treated as three independent MD simulations, but as three consecutive parts of the same simulation trajectory.
 
-3.EVB
+#### EVB
 
 The EVB folder contains all input files required to run the Empirical Valence Bond (EVB) simulations.
 
