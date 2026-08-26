@@ -1,8 +1,8 @@
 
 This repository contains the files necessary to reproduce the computational results reported in the manuscript:
 
-Single-Residue Rational Design Fails to Outperform the Wild-Type MAO-A Enzyme: Artificial Mutants Reveal the Limits of Local Electrostatic Optimization
-Martina Rajić, Outi Lampelac Robert Vianello Janez Mavri, Jernej Stare
+Single-Residue Rational Design Fails to Outperform the Wild-Type MAO-A Enzyme: Artificial Mutants Reveal the Limits of Local Electrostatic Optimization <br>
+Martina Rajić, Outi Lampela, Robert Vianello Janez Mavri, Jernej Stare
 
 
 #### REPOSITORY STRUCTURE
