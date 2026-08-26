@@ -1,6 +1,10 @@
 
 This repository contains the files necessary to reproduce the computational results reported in the manuscript:
 
+Single-Residue Rational Design Fails to Outperform the Wild-Type Monoamine Oxidase A Enzyme: Artificial Mutants Reveal the Limits of Local Electrostatic Optimization
+Martina Rajića, Outi Lampelac Robert Vianello Janez Mavri, Jernej Stare
+
+
 #### REPOSITORY STRUCTURE
 
 The input files are organized into three main folders:
