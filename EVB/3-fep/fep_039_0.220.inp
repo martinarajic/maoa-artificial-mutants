@@ -1,0 +1,56 @@
+#########################################################
+# Template for creating FEP inputs (frames) for Q. 
+# - Use with q_genfeps.py.
+# - Don't touch the placeholders - {top},{fep},...
+#   (except 'restraint')
+#
+[MD]
+steps                 100000 ! play with this
+stepsize                   1
+temperature              300
+bath_coupling            100
+separate_scaling          on
+lrf                       on
+
+[cut-offs]
+q_atom                    99
+solute_solute             10 
+solvent_solvent           10 
+solute_solvent            10
+
+[intervals]
+non_bond                  30
+output                  1000
+trajectory              1000
+energy                    10
+
+[files]
+topology        maoa_E446K.top
+restart         fep_038_0.240.re
+final           fep_039_0.220.re
+trajectory      fep_039_0.220.dcd
+energy          fep_039_0.220.en
+fep             mao_sro_E446K.fep
+restraint       equil_000_1.000.re.rest   # {rest_equil}
+#restraint       fep_038_0.240.re.rest   # {rest_prev}
+
+
+[sequence_restraints]
+# put your restraints here
+# FAC Q
+6353 6363        0.5   1   0 ! play with this
+6365 6365        0.5   1   0
+6367 6370        0.5   1   0
+6400 6401        0.5   1   0
+6407 6407        0.5   1   0  
+# SRO (all Q)
+8278 8302        0.5   1   0
+
+[distance_restraints]
+# and/or here
+# donor-acceptor N8-C8
+6360 8278  0.0 3.0 5.0 0 ! play with this
+
+[lambdas]
+0.220   0.780
+
